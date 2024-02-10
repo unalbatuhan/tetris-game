@@ -13,7 +13,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '6276f908-ef1e-41bb-8fe9-f64fac86b6af'
   imageRepository: 'tetrisgame'
-  containerRegistry: 'mylabacr24.azurecr.io'
+  containerRegistry: 'mylabacr25.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'mylabacr24e605-auth'
